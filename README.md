@@ -16,7 +16,9 @@ There are a few questions that are very important to our analysis:
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-let message = 'Hello World';
-alert(message) 
+![](Images/Roles_to_be_filled.PNG)
 
+### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+![](Images/Are_there_enough.PNG)
 
