@@ -34,3 +34,11 @@ ON e.emp_no = t.emp_no
 WHERE (birth_date between '1965-01-01' AND '1965-12-31')
 AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no; 
+
+-- How many roles will need to be filled
+SELECT COUNT(unique_titles.title) AS "total count of people retiring"
+FROM unique_titles 
+
+-- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+SELECT COUNT (mentorship_eligibility.emp_no) AS "total count of available mentors"
+FROM mentorship_eligibility; 
